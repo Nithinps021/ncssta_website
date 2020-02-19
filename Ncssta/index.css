@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container img{
+    max-height: 100vh;
+    max-width: 100%
+}
+.logo{
+    position: absolute;
+    padding: 1rem 2rem;
+}
+.logo img{
+    max-width: 20vw;
+    max-height: 20vh;
+}

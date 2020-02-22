@@ -1,58 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Saira+Semi+Condensed&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Saira+Semi+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <title>Ncssta</title>
-    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/custom.css">
-</head>
-<body>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/custom.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">
-            <img src="logo.png" alt="">
-        </div>
+      <div class="logo">
+        <img src="logo.png" alt="" />
+      </div>
+      <div class="nav-link" id="nav">
         <ul>
-            <li><a href="#sec2">About</a></li>
-            <li><a href="#">Important Dates</a></li>
-            <li><a href="#">Speakers</a></li>
-            <li><a href="#">Registration</a></li>
-            <li><a href="#">Accommodaion</a></li>
-            <li><a href="#">commitees</a></li>
+          <li><a href="#sec2">About</a></li>
+          <li><a href="#">Important Dates</a></li>
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">Registration</a></li>
+          <li><a href="#">Accommodaion</a></li>
+          <li><a href="#">commitees</a></li>
         </ul>
+      </div>
+      <a href="javascript:void(0)"
+        ><img src="menu.png" alt="" class="menu" id="menu"
+      /></a>
     </nav>
-    <section class="sec1" >
-        <header>
-            <div class="content">
-                <h2>2<sup>nd</sup> NATIONAL CONFERENCE ON SMALL SATELLITE TECHNOLOGY AND APPLICATION 2020</h2>
-                <span class="type"></span>
-            </div>
-            <div class="container" background-color="black">
-                <img src="header.jpg" alt="">
-            </div>
-            <script src="typed.js"></script>
-            <script>
-                var typed = new Typed('.type', {
-                strings:[
-                    'On 3rd - 5th July 2020', 
-                    'At College Of Engineering Trivandrum,Kerala',
-                ],
-                typeSpeed:80,
-                backSpeed:60,
-                loop:true,
-                });
-            </script>
-        </header>
+    <!-- Navbar -->
+    <section class="sec1">
+      <header>
+        <div class="content">
+          <h2>
+            2<sup>nd</sup> NATIONAL CONFERENCE ON SMALL SATELLITE TECHNOLOGY AND
+            APPLICATION 2020
+          </h2>
+          <span class="type"></span>
+        </div>
+        <div class="container" background-color="black">
+          <img src="header.jpg" alt="" />
+        </div>
+        <script src="typed.js"></script>
+        <script>
+          var typed = new Typed(".type", {
+            strings: [
+              "On 3rd - 5th July 2020",
+              "At College Of Engineering Trivandrum,Kerala"
+            ],
+            typeSpeed: 80,
+            backSpeed: 60,
+            loop: true
+          });
+        </script>
+      </header>
     </section>
     <section class="sec2" id="sec2">
-        <img src="design.png" alt="">
-        <div id="about" class="card">
-            <div class="info">
-                <h1>About</h1>
-                <img src="satellite.png" alt="">
-                <p>
-                    National Conference on Small Satellite Technology and Application - 2020 is Small satellites designed with advanced miniaturized technologies are able to make missions possible for applications like remote sensing, communication and space exploration which were earlier accomplished by medium and large satellites. With the increasing demand of earth observation satellites for applications in Agriculture, Forestry, Water resources, Urban planning, Town planning, Disaster Management support, Ocean and atmospheric observation etc… the number of satellite platforms required to provide these services are ever increasing to meet better specification and more frequent revisits. To meet these demands efforts are required to increase the capacity in the satellite design, production and applications especially in small satellites. In this direction this conference is arranged, addressing the miniaturization technologies, small satellites missions and applications involving the staff and students of universities in India.
-                </p>
-            </div>
+      <img src="design.png" alt="" />
+      <div id="about" class="card">
+        <div class="info">
+          <h1>About</h1>
+          <img src="satellite.png" alt="" />
+          <p>
+            National Conference on Small Satellite Technology and Application -
+            2020 is Small satellites designed with advanced miniaturized
+            technologies are able to make missions possible for applications
+            like remote sensing, communication and space exploration which were
+            earlier accomplished by medium and large satellites. With the
+            increasing demand of earth observation satellites for applications
+            in Agriculture, Forestry, Water resources, Urban planning, Town
+            planning, Disaster Management support, Ocean and atmospheric
+            observation etc… the number of satellite platforms required to
+            provide these services are ever increasing to meet better
+            specification and more frequent revisits. To meet these demands
+            efforts are required to increase the capacity in the satellite
+            design, production and applications especially in small satellites.
+            In this direction this conference is arranged, addressing the
+            miniaturization technologies, small satellites missions and
+            applications involving the staff and students of universities in
+            India.
+          </p>
         </div>
+      </div>
     </section>
+    <!-- JavaScript Code -->
+    <script src="index.js"></script>
+  </body>
+</html>

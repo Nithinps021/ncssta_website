@@ -62,13 +62,17 @@ header {
   display: flex;
 }
 .card {
+  display: flex;
+  flex: 1;
   background-color: white;
-  max-width: 85%;
-  max-height: 100vh;
+  margin-left:20vh;
+  margin-right: 20vh;
+  /* width: 75%; */
+  /* max-height: 100vh; */
   border-radius: 20px;
   box-shadow: 5px 5px 10px#757575;
   z-index: 1;
-  margin-top: 20px;
+  margin-top: 20vh;
 }
 .card .info {
   padding: 5%;
@@ -214,8 +218,10 @@ nav ul li a:active {
     top: 0;
   }
   .card {
-    height: 80vh;
-    display: block;
+    /* height: 70vh; */
+    margin: 3vh;
+    display: flex;
+    flex:1;
   }
   .card .info {
     line-height: 2.5vh;
@@ -229,7 +235,7 @@ nav ul li a:active {
     height: 30vh;
     width: 30vh;
     margin-top: 20vh;
-    margin-left: 20vh;
+    margin-left: 10vh;
   }
   /* end of about section */
 }

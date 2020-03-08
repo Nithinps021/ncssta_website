@@ -7,3 +7,8 @@ const navSlider = () => {
   });
 };
 navSlider();
+
+// const menuButton(){
+//   document.getElementById('menu').style.display='none';
+//   document.getElementById()
+// }

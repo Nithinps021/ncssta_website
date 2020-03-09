@@ -226,11 +226,12 @@ footer {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
+.contact ul li a:hover{
+  color:#00ce8e;
+}
 .contact .mob{
   display: none;
 }
-
-
 /* MOBILE VIEW */
 @media screen and (max-width: 768px) {
   body {

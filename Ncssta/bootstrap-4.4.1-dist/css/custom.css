@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bitter|Comfortaa|Hind+Siliguri&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Varela+Round&display=swap');
 
 * {
   padding: 0;
@@ -14,7 +15,7 @@ body {
 }
 
 /* NAVBAR */
-nav{
+nav {
   background-color: black;
   height: 12vh;
   width: 100%;
@@ -41,6 +42,11 @@ nav ul li a {
   padding: 1vh 2vh;
   border-radius: 15px;
   border: solid 1px #00ce8e;
+  /* border: solid 1px white; */
+}
+nav ul li a:hover {
+  /* border: solid 1px #00ce8e; */
+  border: solid 1px white;
 }
 .menu {
   position: absolute;
@@ -56,7 +62,6 @@ nav ul li a:active {
   border-color: black;
 }
 /* END NAVBAR */
-
 
 /* HEADER SECTION START */
 header {
@@ -95,7 +100,6 @@ header {
 }
 /*HEADER SECTION ENDS*/
 
-
 /*ABOUT SECTION*/
 .sec1 {
   background-color: black;
@@ -103,7 +107,7 @@ header {
   max-width: 100;
 }
 .sec2 {
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -175,9 +179,8 @@ header {
 }
 .quick .element h3 {
   font-family: "Hind Siliguri", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 3vw;
-
 }
 .quick .element p {
   font-family: "Bitter", serif;
@@ -185,6 +188,47 @@ header {
   margin-left: 3vw;
 }
 /* END ABOUT */
+
+/* footer starts */
+.sec3 {
+}
+footer {
+  color: white;
+  margin-top: 31vh;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  opacity: .95;
+  /* padding: 4vh; */
+}
+.contact{
+  margin: 5vh 1.5vw;
+}
+.contact h2{
+  font-family: 'Varela Round', sans-serif;
+}
+.contact p{
+  margin-top: 3vh;
+  line-height: 4vh;
+  font-family: "Montserrat", sans-serif;
+}
+.contact p img{
+  max-width: 3vh;
+  max-height: 3vh;
+}
+.contact ul{
+  list-style: none;
+  margin-top: 3vh;
+}
+.contact ul li a{
+  line-height: 5vh;
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.contact .mob{
+  display: none;
+}
 
 
 /* MOBILE VIEW */
@@ -283,5 +327,28 @@ header {
     display: none;
   }
   /* end of about section */
+  footer{
+    flex-direction: column;
+    margin-top: 0vh;
+  }
+  .contact p img{
+    max-width: 2vh;
+    max-height: 2vh;
+  }
+  .contact{
+    margin:4vw 4vh;
+  }
+  .contact .desktop{
+      display: none;
+  }
+  .contact .mob{
+    display:block;
+  }
+  .contact p{
+    margin-top: 1vh;
+  }
+  .container ul{
+    margin-top: 1vh;
+  }
 }
 /* END MOBILE VIEW */

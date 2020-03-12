@@ -138,11 +138,11 @@ header {
   margin-left: 5vh;
   margin-right: 10vh;
   /* width: 50%; */
-  max-height: 100vh;
+  /* max-height: 100vh; */
   border-radius: 20px;
   box-shadow: 5px 5px 10px#757575;
   z-index: 1;
-  margin-top: 20vh;
+  /* margin-top: 10vh;   */
 }
 
 .card .info {
@@ -160,8 +160,8 @@ header {
 
 .info img {
   position: absolute;
-  max-width: 50vh;
-  max-height: 50vh;
+  max-width: 40vh;
+  max-height: 40vh;
   margin-top: 15%;
   margin-left: 20%;
   opacity: 10%;
@@ -400,13 +400,13 @@ footer {
   }
 
   .card .info {
-    line-height: 2.5vh;
-    font-size: 12px;
+    line-height: 3.5vh;
+    font-size: 18px;
   }
 
   .card .info h1 {
-    padding-bottom: 1vh;
-    font-size: 20px;
+    padding-bottom: 2vh;
+    font-size: 30px;
   }
 
   .info img {
@@ -418,13 +418,11 @@ footer {
   .quick {
     display: none;
   }
-
   /* end of about section */
   footer {
     flex-direction: column;
     margin-top: 0vh;
   }
-
   .contact p img {
     max-width: 2vh;
     max-height: 2vh;

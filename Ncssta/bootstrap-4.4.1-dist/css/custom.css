@@ -14,6 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -305,6 +306,68 @@ footer {
 
 /* footer ends */
 
+/* committee page */
+
+.comhead {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+.committie {
+  position: absolute;
+}
+.committie .content {
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+  margin-top: 60vh;
+  margin-left: 5vw;
+}
+.section1 {
+  position: relative;
+  margin-top: 90vh;
+  margin-left: 5vh;
+}
+.heading {
+  margin-top: 5vh;
+}
+.heading div h1 {
+  margin-bottom: 2vh;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+}
+.ComEle {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 5vh;
+  font-family: "Montserrat", sans-serif;
+  line-height: 4vh;
+}
+.individual {
+  margin: 1vh;
+}
+.first {
+  margin-left: 5vh;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+}
+.organize{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin-left: 5vh;
+   font-family: "Montserrat", sans-serif;
+   line-height: 5vh;
+   margin-top: 5vh;
+}
+.organizeHead{
+  margin-left: 60vh;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+}
 /* MOBILE VIEW */
 @media screen and (max-width: 768px) {
   body {
@@ -460,6 +523,52 @@ footer {
   }
   .host {
     margin-top: 0vh;
+  }
+  /* committiees */
+  .section1{
+    margin-top: 55vh;
+    margin-left: 0;
+  }
+  .comhead {
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .committie {
+    align-items: center;
+  }
+  .committie .content {
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 20px;
+    margin-top: 20vh;
+    margin-left: 0vh;
+  }
+  .organizeHead{
+    margin-left: 0vh;
+  }
+  .ComEle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 0;
+  }
+  .group{
+    margin-left: 2vh;
+    font-size: 15px;
+    line-height: 3vh;
+  }
+  .group h1{
+    line-height: 6vh;
+  }
+  .first{
+    line-height: 6vh;
+    margin-left: 2vh;
+  }
+  .organize{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    line-height: 4vh;
+    margin-bottom: 5vh;
   }
 }
 

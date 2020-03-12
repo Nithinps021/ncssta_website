@@ -316,15 +316,14 @@ footer {
 .committie {
   position: absolute;
 }
-.committie .content {
+.committiee .content {
   font-family: "Saira Semi Condensed", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 60vh;
-  margin-left: 5vw;
+  margin-left: 10vw;
 }
 .section1 {
   position: relative;
-  margin-top: 90vh;
   margin-left: 5vh;
 }
 .heading {
@@ -526,7 +525,7 @@ footer {
   }
   /* committiees */
   .section1{
-    margin-top: 55vh;
+    margin-top: 0vh;
     margin-left: 0;
   }
   .comhead {
@@ -537,10 +536,10 @@ footer {
   .committie {
     align-items: center;
   }
-  .committie .content {
+  .committiee .content {
     font-family: "Saira Semi Condensed", sans-serif;
-    font-size: 20px;
-    margin-top: 20vh;
+    font-size: 25px;
+    margin-top: 25vh;
     margin-left: 0vh;
   }
   .organizeHead{

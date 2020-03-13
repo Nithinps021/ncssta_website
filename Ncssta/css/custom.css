@@ -474,17 +474,14 @@ footer {
     display: flex;
     flex: 1;
   }
-
   .card .info {
     line-height: 2.5vh;
     font-size: 12px;
   }
-
   .card .info h1 {
     padding-bottom: 1vh;
     font-size: 20px;
   }
-
   .info img {
     height: 30vh;
     width: 30vh;
@@ -504,9 +501,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   border-radius: 50px;
   box-shadow: 5px 5px  4px #ababab;
-
   }
-
   /* end of about section */
   footer {
     flex-direction: column;

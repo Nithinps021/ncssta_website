@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Comfortaa|Hind+Siliguri&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* header start */
+header {
+  /* position: absolute; */
+  background-color: white;
+}
+header img {
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+}
+.icon {
+  position: absolute;
+}
+.downarrow {
+  width: 10vh;
+  height: 10vh;
+  margin-top: 70vh;
+  margin-left: 50vw;
+}
+.section1 {
+  /* display: grid;
+    grid-template-columns: 50% 50% ; */
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  margin-top: 40vh;
+  background-color: #222831;
+  color: white;
+}
+.wrap h1 {
+  margin-left: 45vw;
+  margin-top: 4vh;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-weight: none;
+  font-size: 40px;
+}
+.topic {
+  position: relative;
+  background-color: #222831;
+}
+.topic ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.4s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-left: 32vw;
+}
+.topic li {
+  padding: 1vh;
+}
+.topic button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  padding: 2vh;
+  margin-left: 30vw;
+  font-family: "Montserrat", sans-serif;
+}
+.topic button:focus + ul {
+  max-height: 90vh;
+  opacity: 1;
+}

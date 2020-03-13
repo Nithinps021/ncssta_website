@@ -153,6 +153,9 @@ header {
   font-family: "Montserrat", sans-serif;
   line-height: 2vw;
 }
+.card .info  p{
+  margin-bottom: 5vh;
+}
 
 .card h1 {
   padding: 2% 0%;
@@ -215,6 +218,20 @@ header {
   font-size: 12px;
   margin-left: 3vw;
 }
+.card span{
+  align-self: center;
+}
+.downloadButton{
+  text-decoration: none;
+  margin-top: 10vh;
+  padding: 2vh;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50px;
+  box-shadow: 5px 5px  5px #ababab;
+
+}
 
 /* END ABOUT */
 
@@ -249,9 +266,6 @@ header {
   max-width: 50vh;
   max-height: 50vh;
   margin-top: 3vh;
-}
-
-.host h1 {
 }
 
 /* footer starts */
@@ -479,6 +493,18 @@ footer {
   }
   .quick {
     display: none;
+  }
+  .card span{
+    margin-bottom: 2vh;
+  }
+  .downloadButton{
+  padding: 2vh;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50px;
+  box-shadow: 5px 5px  4px #ababab;
+
   }
 
   /* end of about section */

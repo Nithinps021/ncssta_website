@@ -36,16 +36,16 @@ header img {
   margin-left: 50vw;
 }
 .section1 {
-  /* display: grid;
-    grid-template-columns: 50% 50% ; */
   margin-left: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .wrap {
   margin-top: 40vh;
   background-color: #222831;
   color: white;
+  padding-bottom: 10vh;
 }
 .wrap h1 {
   margin-left: 45vw;
@@ -67,6 +67,7 @@ header img {
   max-height: 0;
   transition: all 0.4s ease-in-out;
   font-family: "Montserrat", sans-serif;
+  /* transform: translateY(-90vh); */
   font-size: 15px;
   margin-left: 32vw;
 }
@@ -84,6 +85,77 @@ header img {
   font-family: "Montserrat", sans-serif;
 }
 .topic button:focus + ul {
-  max-height: 90vh;
+  max-height: 92vh;
   opacity: 1;
+}
+footer {
+  margin-top: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+  .downarrow {
+    width: 10vh;
+    height: 10vh;
+    margin-top: 80vh;
+    margin-left: 40vw;
+  }
+  .section1 {
+    margin-left: 0;
+    overflow: hidden;
+  }
+  .wrap {
+    margin-top: 10vh;
+    background-color: #222831;
+    color: white;
+  }
+  .wrap h1 {
+    margin-left: 35vw;
+    margin-top: 4vh;
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-weight: none;
+    font-size: 30px;
+    /* position: absolute; */
+  }
+  .topic {
+    position: relative;
+    background-color: #222831;
+  }
+  .topic ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.4s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    position: relative;
+    z-index: 0;
+  }
+  .topic button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    padding: 2vh;
+    margin-left:1vh;
+    margin-right: 1vh;
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+  }
+  .topic button:focus + ul {
+    max-height: 200vh;
+    opacity: 1;
+  }
+  footer {
+    margin-top: 5vh;
+    z-index: 2;
+  }
+  .topic p{
+    align-items: left;
+  }
 }

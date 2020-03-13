@@ -14,6 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -152,6 +153,9 @@ header {
   font-family: "Montserrat", sans-serif;
   line-height: 2vw;
 }
+.card .info  p{
+  margin-bottom: 5vh;
+}
 
 .card h1 {
   padding: 2% 0%;
@@ -214,6 +218,20 @@ header {
   font-size: 12px;
   margin-left: 3vw;
 }
+.card span{
+  align-self: center;
+}
+.downloadButton{
+  text-decoration: none;
+  margin-top: 10vh;
+  padding: 2vh;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50px;
+  box-shadow: 5px 5px  5px #ababab;
+
+}
 
 /* END ABOUT */
 
@@ -248,9 +266,6 @@ header {
   max-width: 50vh;
   max-height: 50vh;
   margin-top: 3vh;
-}
-
-.host h1 {
 }
 
 /* footer starts */
@@ -305,6 +320,67 @@ footer {
 
 /* footer ends */
 
+/* committee page */
+
+.comhead {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+.committie {
+  position: absolute;
+}
+.committiee .content {
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 40px;
+  margin-top: 60vh;
+  margin-left: 10vw;
+}
+.section1 {
+  position: relative;
+  margin-left: 5vh;
+}
+.heading {
+  margin-top: 5vh;
+}
+.heading div h1 {
+  margin-bottom: 2vh;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+}
+.ComEle {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 5vh;
+  font-family: "Montserrat", sans-serif;
+  line-height: 4vh;
+}
+.individual {
+  margin: 1vh;
+}
+.first {
+  margin-left: 5vh;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+}
+.organize{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin-left: 5vh;
+   font-family: "Montserrat", sans-serif;
+   line-height: 5vh;
+   margin-top: 5vh;
+}
+.organizeHead{
+  margin-left: 60vh;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+}
 /* MOBILE VIEW */
 @media screen and (max-width: 768px) {
   body {
@@ -398,17 +474,14 @@ footer {
     display: flex;
     flex: 1;
   }
-
   .card .info {
     line-height: 3.5vh;
     font-size: 18px;
   }
-
   .card .info h1 {
     padding-bottom: 2vh;
     font-size: 30px;
   }
-
   .info img {
     height: 30vh;
     width: 30vh;
@@ -418,6 +491,20 @@ footer {
   .quick {
     display: none;
   }
+<<<<<<< HEAD:Ncssta/bootstrap-4.4.1-dist/css/custom.css
+=======
+  .card span{
+    margin-bottom: 2vh;
+  }
+  .downloadButton{
+  padding: 2vh;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50px;
+  box-shadow: 5px 5px  4px #ababab;
+  }
+>>>>>>> 26276b3160fe803c77305f1a2c0c0bb90a1da90d:Ncssta/css/custom.css
   /* end of about section */
   footer {
     flex-direction: column;
@@ -458,6 +545,52 @@ footer {
   }
   .host {
     margin-top: 0vh;
+  }
+  /* committiees */
+  .section1{
+    margin-top: 0vh;
+    margin-left: 0;
+  }
+  .comhead {
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .committie {
+    align-items: center;
+  }
+  .committiee .content {
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 25px;
+    margin-top: 25vh;
+    margin-left: 0vh;
+  }
+  .organizeHead{
+    margin-left: 0vh;
+  }
+  .ComEle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 0;
+  }
+  .group{
+    margin-left: 2vh;
+    font-size: 15px;
+    line-height: 3vh;
+  }
+  .group h1{
+    line-height: 6vh;
+  }
+  .first{
+    line-height: 6vh;
+    margin-left: 2vh;
+  }
+  .organize{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    line-height: 4vh;
+    margin-bottom: 5vh;
   }
 }
 

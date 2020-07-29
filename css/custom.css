@@ -270,6 +270,7 @@ header {
 
 /* footer starts */
 footer {
+  bottom: 0px;
   color: white;
   margin-top: 9rem;
   display: flex;

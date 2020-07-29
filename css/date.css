@@ -1,0 +1,16 @@
+.date {
+ width: 90%;
+ margin-top: 20vh;
+ margin-bottom: 15vh;
+ max-zoom: 50%;
+ object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .date {
+        width: 90%;
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        object-fit: contain;
+       }
+}

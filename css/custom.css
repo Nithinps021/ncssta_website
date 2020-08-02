@@ -266,6 +266,10 @@ header {
   max-width: 50vh;
   max-height: 50vh;
   margin-top: 3vh;
+  margin-right: 3vw;
+}
+.sss{
+  margin-bottom: 15vh;
 }
 
 /* footer starts */
@@ -399,6 +403,13 @@ footer {
 .vip p{
   font-size: 15px;
 }
+.subhead{
+  font-family: "Saira Semi Condensed", sans-serif;
+  text-align:start ;
+  font-size:27px;
+  margin-bottom: 2vh;
+}
+
 
 /* MOBILE VIEW */
 @media screen and (max-width: 768px) {

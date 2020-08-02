@@ -372,19 +372,33 @@ footer {
 .organize{
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  margin-left: 5vh;
    font-family: "Montserrat", sans-serif;
    line-height: 5vh;
    margin-top: 5vh;
+   text-align: start;
 }
 .organizeHead{
-  margin-left: 60vh;
+  text-align: start;
   font-family: "Saira Semi Condensed", sans-serif;
   font-size: 30px;
+  margin-top: 3vh;
 }
+.patron{
+  text-align: center;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 40px;
+  margin-top: 5vh;
 
 
-
+}
+.vip{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.vip p{
+  font-size: 15px;
+}
 
 /* MOBILE VIEW */
 @media screen and (max-width: 768px) {

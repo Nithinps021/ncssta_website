@@ -1,7 +1,8 @@
 .date {
  width: 90%;
+ height: 70vh;
  margin-top: 20vh;
- margin-bottom: 15vh;
+ /* margin-bottom: 15vh; */
  max-zoom: 50%;
  object-fit: contain;
 }

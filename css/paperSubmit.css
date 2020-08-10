@@ -29,14 +29,14 @@ header img {
 .icon {
   position: absolute;
 }
-.heading{
+.heading {
   position: absolute;
 }
-.heading h1{
+.heading h1 {
   margin-top: 40vh;
   max-width: 40vw;
   margin-left: 5vw;
-  font-size:70px;
+  font-size: 70px;
   line-height: 12vh;
   color: white;
   font-family: "Saira Semi Condensed", sans-serif;
@@ -100,31 +100,32 @@ header img {
   max-height: 92vh;
   opacity: 1;
 }
-.imgdrp{
+.imgdrp {
   max-width: 3vh;
   max-width: 3vh;
-  margin: .5vh 1vh;
+  margin: 0.5vh 1vh;
 }
-.section2{
+.section2 {
   margin: 10vh;
 }
-.paper{
+.paper {
   display: flex;
   flex-direction: column;
   width: 50vw;
 }
-.paper h2{
-  margin: 2vh  5vh;
+.paper h2 {
+  margin: 2vh 5vh;
   font-family: "Saira Semi Condensed", sans-serif;
   font-size: 35px;
 }
-.paper p{
+.paper p {
   margin-left: 5vh;
   font-family: "Montserrat", sans-serif;
   line-height: 5vh;
   font-size: 18px;
+  margin-bottom: 5vh;
 }
-.paper span{
+.paper span {
   margin-top: 4vh;
   margin-left: 6vh;
 }
@@ -132,10 +133,13 @@ header img {
 footer {
   margin-top: 10vh;
 }
-
+.buttons{
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
 
 @media screen and (max-width: 768px) {
-  .heading h1{
+  .heading h1 {
     font-size: 50px;
     line-height: 8vh;
     margin-top: 30vh;
@@ -189,45 +193,50 @@ footer {
     cursor: pointer;
     color: white;
     padding: 2vh;
-    margin-left:1vh;
+    margin-left: 1vh;
     margin-right: 2vh;
-    text-align:start;
+    text-align: start;
     font-family: "Montserrat", sans-serif;
   }
   .topic button:focus + ul {
     max-height: 200vh;
     opacity: 1;
   }
-  .section2{
-    margin:1vh;
+  .section2 {
+    margin: 1vh;
   }
-  .paper{
+  .paper {
     display: flex;
     flex-direction: column;
-    width:80vw;
+    width: 80vw;
   }
-  .paper h2{
-    margin: 2vh  5vh;
+  .paper h2 {
+    margin: 2vh 5vh;
     font-family: "Saira Semi Condensed", sans-serif;
     font-size: 30px;
   }
-  .paper p{
+  .paper p {
     margin-left: 5vh;
     font-family: "Montserrat", sans-serif;
     line-height: 4vh;
     font-size: 18px;
   }
-  .paper span{
+  .paper span {
     margin-top: 4vh;
     margin-left: 6vh;
   }
-  .imgdrp{
+  .imgdrp {
     /* display: none; */
   }
-  
 
   footer {
     margin-top: 5vh;
     z-index: 2;
   }
+  .buttons{
+    width:70vw;
+    text-align: center;
+    margin-left: 10vw;
+  }
+  
 }

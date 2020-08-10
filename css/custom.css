@@ -153,7 +153,7 @@ header {
   font-family: "Montserrat", sans-serif;
   line-height: 2vw;
 }
-.card .info  p{
+.card .info p {
   margin-bottom: 5vh;
 }
 
@@ -218,10 +218,10 @@ header {
   font-size: 12px;
   margin-left: 3vw;
 }
-.card span{
+.card span {
   align-self: center;
 }
-.downloadButton{
+.downloadButton {
   text-decoration: none;
   margin-top: 10vh;
   padding: 2vh;
@@ -229,8 +229,7 @@ header {
   color: white;
   font-family: "Montserrat", sans-serif;
   border-radius: 50px;
-  box-shadow: 5px 5px  5px #ababab;
-
+  box-shadow: 5px 5px 5px #ababab;
 }
 
 /* END ABOUT */
@@ -268,7 +267,6 @@ header {
   margin-top: 3vh;
   margin-right: 3vw;
 }
-
 
 /* footer starts */
 footer {
@@ -371,43 +369,40 @@ footer {
   font-family: "Saira Semi Condensed", sans-serif;
   font-size: 30px;
 }
-.organize{
+.organize {
   display: grid;
   grid-template-columns: 30% 30% 30%;
-   font-family: "Montserrat", sans-serif;
-   line-height: 5vh;
-   margin-top: 5vh;
-   text-align: start;
+  font-family: "Montserrat", sans-serif;
+  line-height: 5vh;
+  margin-top: 5vh;
+  text-align: start;
 }
-.organizeHead{
+.organizeHead {
   text-align: start;
   font-family: "Saira Semi Condensed", sans-serif;
   font-size: 30px;
   margin-top: 3vh;
 }
-.patron{
+.patron {
   text-align: center;
   font-family: "Saira Semi Condensed", sans-serif;
   font-size: 40px;
   margin-top: 5vh;
-
-
 }
-.vip{
+.vip {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
-.vip p{
+.vip p {
   font-size: 15px;
 }
-.subhead{
+.subhead {
   font-family: "Saira Semi Condensed", sans-serif;
-  text-align:start ;
-  font-size:27px;
+  text-align: start;
+  font-size: 27px;
   margin-bottom: 2vh;
 }
-
 
 /* MOBILE VIEW */
 @media screen and (max-width: 768px) {
@@ -519,17 +514,20 @@ footer {
   .quick {
     display: none;
   }
-  .card span{
+  .card span {
     margin-bottom: 2vh;
   }
-  .downloadButton{
-  padding: 2vh;
-  background-color: black;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  border-radius: 50px;
-  box-shadow: 5px 5px  4px #ababab;
+  .downloadButton {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 50px;
+    box-shadow: 5px 5px 4px #ababab;
   }
+ 
   /* end of about section */
   footer {
     flex-direction: column;
@@ -573,7 +571,7 @@ footer {
     margin-top: 0vh;
   }
   /* committiees */
-  .section1{
+  .section1 {
     margin-top: 0vh;
     margin-left: 0;
   }
@@ -591,27 +589,27 @@ footer {
     margin-top: 25vh;
     margin-left: 0vh;
   }
-  .organizeHead{
+  .organizeHead {
     margin-left: 0vh;
   }
-  .ComEle{
+  .ComEle {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 0;
   }
-  .group{
+  .group {
     margin-left: 2vh;
     font-size: 15px;
     line-height: 3vh;
   }
-  .group h1{
+  .group h1 {
     line-height: 6vh;
   }
-  .first{
+  .first {
     line-height: 6vh;
     margin-left: 2vh;
   }
-  .organize{
+  .organize {
     display: flex;
     flex-direction: column;
     margin-top: 2vh;

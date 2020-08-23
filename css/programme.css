@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Comfortaa|Hind+Siliguri&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Varela+Round&display=swap");
+
+.phead {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  margin-left: 5vw;
+  margin-top: 10vh;
+}
+.pgrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.speaker {
+  object-fit: contain;
+  margin-left: 15vw;
+  margin-top: 5vh;
+  width: 35vw;
+  margin-bottom: 10vh;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #ababab;
+}
+.col2 {
+  margin-top: 20vh;
+}
+.speakerName {
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 30px;
+  margin-left: 5vw;
+}
+.speakerDetails {
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  margin-left: 5vw;
+}
+.pgrid2 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 10vh;
+}
+.speakerSec {
+  display: flex;
+  flex-direction: column;
+}
+.speakerSecImg {
+  object-fit: contain;
+  width: 18vw;
+  box-shadow: 5px 5px 10px #ababab;
+  border-radius: 30px;
+  margin-bottom: 3vh;
+  align-self: center;
+}
+.speakerSecName {
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.speakerSecDetails {
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}

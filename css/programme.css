@@ -3,7 +3,7 @@
 
 .phead {
   font-family: "Montserrat", sans-serif;
-  font-size: 38px;
+  font-size: 35px;
   margin-left: 5vw;
   margin-top: 10vh;
 }
@@ -33,9 +33,10 @@
   font-size: 18px;
   margin-left: 5vw;
 }
-.pgrid2 {
+.pgrid2{
   display: grid;
   grid-template-columns: 30% 30% 30%;
+  margin-top: 5vh ;
   margin-left: 5vw;
   margin-right: 5vw;
   margin-bottom: 10vh;

@@ -184,7 +184,7 @@ header {
   display: flex;
   flex-direction: column;
   margin-right: 13vh;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .quick .element {
@@ -199,6 +199,11 @@ header {
   flex-direction: column;
   box-shadow: 2px 2px 4px #757575;
 }
+.social{
+  text-decoration: none;
+  color: white;
+}
+
 
 .quick .element img {
   max-width: 2rem;

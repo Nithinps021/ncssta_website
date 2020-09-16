@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Comfortaa|Hind+Siliguri&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Varela+Round&display=swap");
+
+.box{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.7 ease-in-out;
+
+}
+.pop-up{
+    z-index: 5000;
+    position:fixed;
+    background-color:#E4E4E4;
+    width:35%;
+    height: 12%;
+    right: 5vh;
+    bottom:10vh;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 15% 80% 5%;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 1vh;
+    border-left: 5px solid  #FF0008;
+    padding: 2vh;
+    opacity: 0;
+    margin-right: 100px;
+    transition: all 1s ease;
+}
+.box.show{
+    visibility:visible;
+    opacity: 1;
+
+}
+.box.show .pop-up{
+    opacity: 1;
+    margin-right: 0;
+
+}
+.notifi-img{
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    margin-left: 1vh;
+}
+.pop-msg{
+    margin-top: 1vh;
+    font-size: 16px;
+}
+.pop-close-img{
+    max-width: 0.7rem;
+    max-height: 0.7rem;
+    margin-left: 1vh;
+    cursor: pointer;
+}
+.close{
+    font-size: 30px;
+    top:0;
+    right:2vh;
+    position: absolute;
+    cursor: pointer;
+}

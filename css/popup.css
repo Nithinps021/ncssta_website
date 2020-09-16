@@ -12,7 +12,7 @@
     position:fixed;
     background-color:#E4E4E4;
     width:35%;
-    height: 12%;
+    height: 17%;
     right: 5vh;
     bottom:10vh;
     text-align: left;
@@ -31,19 +31,24 @@
     opacity: 1;
 
 }
+.pop-up h2{
+    color: red;
+}
 .box.show .pop-up{
     opacity: 1;
     margin-right: 0;
 
 }
 .notifi-img{
+    margin-top: 2vh;
     max-width: 2.5rem;
     max-height: 2.5rem;
     margin-left: 1vh;
 }
 .pop-msg{
     margin-top: 1vh;
-    font-size: 16px;
+    font-size: 17px;
+    margin-bottom: 2vh;
 }
 .pop-close-img{
     max-width: 0.7rem;

@@ -32,6 +32,8 @@ close.addEventListener('click',function(){
   popUp.classList.remove("show")
 
 })
+
+
 // const menuButton(){
 //   document.getElementById('menu').style.display='none';
 //   document.getElementById()

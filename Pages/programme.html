@@ -2,15 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Cache-control" content="no-cache"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programme</title>
-    <link rel="stylesheet" href="../css/custom.css" />
-    <link rel="stylesheet" href="../css/programme.css" />
+    <link rel="stylesheet" href="../css/custom.css?ver=1.0" />
+    <link rel="stylesheet" href="../css/programme.css?ver=2.0" />
     <link rel="icon" href="../Images/title.svg" type="image/icon type" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat|Saira+Semi+Condensed&display=swap"
       rel="stylesheet"
     />
+    <script src="index.js?ver=1.0">
+    </script>
   </head>
   <body>
     <nav class="navbar">
@@ -21,7 +24,7 @@
         <ul>
           <li><a href="../index.html">Home</a></li>
           <li><a href="./committees.html">committee</a></li>
-          <li><a href="./programme.html">programme</a></li>
+          <li><a href="#main" id='pgclick'>programme</a></li>
           <li><a href="./PaperSubmit.html">Paper Submission</a></li>
           <li><a href="https://bit.ly/2D9TIve">Register</a></li>
           <li><a href="date.html">Important Dates</a></li>
@@ -31,15 +34,15 @@
         ><img src="../Images/menu.png" alt="" class="menu" id="menu"
       /></a>
     </nav>
-    <header>
+    <header >
       <div class="committiee">
         <dir class="content">
-          <h1>PROGRAMME</h1>
+          <h1 id="main">PROGRAMME</h1>
         </dir>
         <img src="../Images/speakers.webp" alt="" class="comhead" />
       </div>
     </header>
-    <section>
+    <section >
       <h1 class="phead">INAUGURATION BY</h1>
       <div class="pgrid">
         <div>
@@ -97,6 +100,19 @@
             </h1>
             <p class="speakerSecDetails">
               Founder & CEO<br/>Dhruva Space Pvt. Ltd<br/>India
+            </p>
+          </div>
+          <div class="speakerSec">
+            <img
+              src="../Images/Tom (1).jpg"
+              alt=""
+              class="speakerSecImg"
+            />
+            <h1 class="speakerSecName">
+              Mr Tom Segert
+            </h1>
+            <p class="speakerSecDetails">
+               Director<br/>Azista BST Aerospace<br/>
             </p>
           </div>
         </div>

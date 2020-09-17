@@ -103,7 +103,7 @@ header {
   display: block;
   position: absolute;
   color: white;
-  max-width: 40vw;
+  max-width: 70vw;
   margin-top: 10vw;
   padding: 1rem 2rem;
   line-height: 3rem;
@@ -111,7 +111,7 @@ header {
 
 .content span {
   font-size: 20px;
-  font-family: "Saira Semi Condensed", sans-serif;
+  font-family: "Saira Semi Condensed", sans-serif;  
 }
 
 /*HEADER SECTION ENDS*/
